@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.prime-Page {
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.languages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  padding: 80px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.lang-card {
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 25px 20px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lang-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.lang-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.lang-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.lang-card button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  backdrop-filter: blur(5px);
+}
+
+.lang-card button:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.05);
+}
+
+.c-card {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+
+.cpp-card {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.java-card {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+  color: #333;
+}
+
+.python-card {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+/* Tablets */
+@media (max-width: 992px) {
+  .languages {
+    padding: 1.5rem;
+    gap: 20px;
+  }
+
+  .lang-card h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .languages {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 1rem;
+  }
+
+  .lang-card {
+    padding: 20px 15px;
+  }
+
+  .lang-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .lang-card button {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1rem;
+  }
+}

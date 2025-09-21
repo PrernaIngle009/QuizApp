@@ -1,0 +1,167 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1614851099511-773084f6911d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFkZWQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+  margin: 0;
+  padding: 40px;
+}
+
+.quiz-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quiz-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.quiz-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options-list li {
+  padding: 20px 16px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.options-list li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.options-list input[type="radio"] {
+  margin-right: 10px;
+}
+
+.quiz-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.question-tracker {
+  display: flex;
+  gap: 10px;
+}
+
+.quest {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  background: #fff;
+  color: #4a6cf7;
+}
+
+.quest:hover {
+  background: transparent;
+  color: #4a6cf7;
+}
+
+.btn {
+  background: #fff;
+  color: #4a6cf7;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #4a6cf7;
+  color: #fff;
+}
+.correct {
+  background: green;
+}
+.wrong {
+  background: red;
+}
+/* Tablets */
+@media (max-width: 992px) {
+  .quiz-container {
+    padding: 16px;
+  }
+  .quiz-header {
+    font-size: 1.1rem;
+  }
+  .options-list li {
+    font-size: 0.95rem;
+    padding: 14px 10px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .quiz-container {
+    padding: 12px;
+    gap: 15px;
+  }
+
+  .quiz-header {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .options-list li {
+    font-size: 0.9rem;
+    padding: 12px 8px;
+  }
+
+  .quiz-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .question-tracker {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .quest {
+    flex: 1;
+  }
+}

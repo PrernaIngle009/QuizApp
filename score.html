@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Score</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+            gap: 20px;
+            overflow-y: hidden;
+        }
+
+        .main-container {
+            background-color: white;
+            color: rgb(27, 112, 141);
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            border: none;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #5895f1;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin: 0.75rem 0;
+        }
+
+        .score-value {
+            font-weight: 700;
+            color: rgb(183, 61, 231);
+        }
+
+        .attempt-value {
+            font-weight: 700;
+            color: #60a5fa;
+        }
+
+        .not-attempt-value {
+            font-weight: 700;
+            color: #fca5a5;
+        }
+
+        #btn {
+            padding: 1.2em 3em;
+            border-radius: 20px;
+            border: none;
+            background-color: white;
+            color: rgb(27, 112, 141);
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 0.5rem;
+            }
+
+            .main-container {
+                padding: 1.5rem;
+                margin: 2em;
+            }
+
+            #btn {
+                width: 100%;
+                font-size: 1rem;
+                padding: 1.2rem;
+            }
+        }
+
+        /* 🔹 Tablets */
+        @media (max-width: 768px) {
+            .main-container {
+                max-width: 80%;
+                padding: 2rem;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Your Score: <span class="score-value" id="scoreValue">20</span></h1>
+        <h3>Total Questions: <span id="totalQuestions">50</span></h3>
+        <h3>Total Attempted: <span id="totalAttempted">20</span></h3>
+        <h3>Not Attempted: <span id="notAttempted">30</span></h3>
+    </div>
+    <button id="btn">Restart</button>
+    <script src="score.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

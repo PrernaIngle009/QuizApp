@@ -1,0 +1,1700 @@
+{
+  "c": [
+    {
+      "question": "Which of the following is the correct way to declare a function pointer where 'pointer' is the pointer to the function and 'function' is the name of the function",
+      "options": [
+        "void (*pointer) = &(int)function;",
+        "void function(*pointer) = int;",
+        "void (*pointer)(int) = &function;",
+        "void &function(*pointer) = int;"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "In what way are both declarations different from each other\nint display();\nextern int display();",
+      "options": [
+        "No difference",
+        "Extern is not a valid keyword",
+        "Extern indicates that the function has been created in an external file",
+        "Extern indicates that the function is not accessible in the program"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Identify the C compiler of UNIX.",
+      "options": ["gcc", "cc", "Borland", "vc++"],
+      "correct": 1
+    },
+    {
+      "question": "Which header file can be used to define input/output function prototypes and macros?",
+      "options": ["math.h", "memory.h", "stdio.h", "dos.h"],
+      "correct": 2
+    },
+    {
+      "question": "\"C\" language has been developed by \"Dennis Ritchie\"",
+      "options": ["Yes", "No"],
+      "correct": 0
+    },
+    {
+      "question": "What is the result of the following C code snippet?\n`int x = 5;\nprintf(\"%d\", x++);`",
+      "options": ["5", "6", "undefined behavior", "Compile-time error"],
+      "correct": 0
+    },
+    {
+      "question": "What is the size of `char` data type in C?",
+      "options": ["1 byte", "2 bytes", "4 bytes", "Depends on the system"],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a logical AND operator in C?",
+      "options": ["&", "|", "&&", "||"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of `malloc()` in C?",
+      "options": [
+        "To free memory",
+        "To allocate memory dynamically",
+        "To get the size of a variable",
+        "To print a message"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'pointer' in C?",
+      "options": [
+        "A variable that stores a value",
+        "A variable that stores the address of another variable",
+        "A keyword to declare a variable",
+        "A data type"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the correct way to include a header file `myheader.h`?",
+      "options": [
+        "#include <myheader.h>",
+        "#include \"myheader.h\"",
+        "include \"myheader.h\"",
+        "#include 'myheader.h'"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `printf(\"%d\", 10 / 3);`?",
+      "options": ["3.33", "3", "3.0", "Compile error"],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is an entry control loop?",
+      "options": ["do-while", "for", "goto", "if"],
+      "correct": 1
+    },
+    {
+      "question": "What does the `sizeof` operator do?",
+      "options": [
+        "Returns the size of a variable in bits",
+        "Returns the size of a variable in bytes",
+        "Returns the value of a variable",
+        "Returns the memory address of a variable"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a valid C variable name?",
+      "options": ["_my_variable", "my variable", "123variable", "my-variable"],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a data type in C?",
+      "options": ["int", "float", "boolean", "double"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of the `break` statement?",
+      "options": [
+        "To exit a loop or a switch statement",
+        "To skip the current iteration of a loop",
+        "To terminate the program",
+        "To return a value from a function"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the default value of a global integer variable?",
+      "options": ["garbage value", "0", "1", "undefined"],
+      "correct": 1
+    },
+    {
+      "question": "What does `argc` in `main(int argc, char *argv[])` represent?",
+      "options": [
+        "Number of arguments",
+        "Array of argument strings",
+        "Character count",
+        "Argument count"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the `NULL` macro represent?",
+      "options": [
+        "An empty string",
+        "A zero value",
+        "A null pointer constant",
+        "An invalid address"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How is an array `int arr[10]` stored in memory?",
+      "options": [
+        "In a scattered fashion",
+        "Sequentially",
+        "In a heap",
+        "In a stack with random addresses"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `printf(\"%d\", 'A');`?",
+      "options": ["A", "a", "65", "Compile error"],
+      "correct": 2
+    },
+    {
+      "question": "What is a 'string' in C?",
+      "options": [
+        "A primitive data type",
+        "A sequence of characters",
+        "An array of characters ending with a null character",
+        "An object"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the `printf` function used for?",
+      "options": [
+        "To read input from the user",
+        "To print formatted output to the console",
+        "To define a variable",
+        "To allocate memory"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a valid relational operator?",
+      "options": ["->", "==", "!", "++"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `realloc()`?",
+      "options": [
+        "To deallocate a memory block",
+        "To resize a previously allocated memory block",
+        "To allocate a new memory block",
+        "To copy a memory block"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'stack' in C programming?",
+      "options": [
+        "A linear data structure",
+        "A LIFO (Last-In, First-Out) data structure",
+        "A FIFO (First-In, First-Out) data structure",
+        "A type of memory allocation"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `printf(\"%d\", 20 % 3);`?",
+      "options": ["6", "2", "6.66", "0"],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a keyword in C?",
+      "options": ["main", "printf", "static", "scanf"],
+      "correct": 2
+    },
+    {
+      "question": "What is a 'preprocessor directive'?",
+      "options": [
+        "A type of function call",
+        "A command for the compiler to process before compilation",
+        "A type of loop",
+        "A syntax error"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does the `const` keyword mean?",
+      "options": [
+        "The variable can be changed",
+        "The variable cannot be changed",
+        "The variable must be initialized",
+        "The variable is a pointer"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `printf(\"%d\", sizeof(int));`?",
+      "options": ["1", "2", "4", "Depends on the system"],
+      "correct": 3
+    },
+    {
+      "question": "What is the purpose of the `feof()` function?",
+      "options": [
+        "To check for the end of a file",
+        "To free a file pointer",
+        "To open a file",
+        "To check if a file is empty"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a standard C library?",
+      "options": ["stdio.h", "conio.h", "stdlib.h", "string.h"],
+      "correct": 1
+    },
+    {
+      "question": "What is the correct way to read a single character from the keyboard?",
+      "options": ["getc()", "scanf(\"%c\")", "getch()", "All of the above"],
+      "correct": 3
+    },
+    {
+      "question": "What is the difference between `==` and `=`?",
+      "options": [
+        "One is a comparison operator, the other is an assignment operator",
+        "They are the same",
+        "One is for strings, the other is for numbers",
+        "One is for pointers, the other is for variables"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a function for dynamic memory allocation?",
+      "options": ["`free()`", "`calloc()`", "`size()`", "`print()`"],
+      "correct": 1
+    },
+    {
+      "question": "What is the default return type of `main()`?",
+      "options": ["void", "int", "char", "float"],
+      "correct": 1
+    },
+    {
+      "question": "What is the scope of a local variable?",
+      "options": [
+        "The entire program",
+        "The file in which it is declared",
+        "The block in which it is declared",
+        "The function in which it is declared"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is a 'post-test' loop?",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "if-else statement"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of the `continue` statement?",
+      "options": [
+        "To exit the current loop",
+        "To skip the rest of the code in the current iteration of the loop",
+        "To restart the program",
+        "To terminate the function"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is the correct syntax for a `switch` statement?",
+      "options": [
+        "`switch(n)`",
+        "`switch { n }`",
+        "`switch(n) { ... }`",
+        "`switch(n); { ... }`"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is a 'recursion'?",
+      "options": [
+        "A function that calls itself",
+        "A function that calls another function",
+        "A type of loop",
+        "A data type"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `typedef`?",
+      "options": [
+        "To create a new variable",
+        "To create an alias for an existing data type",
+        "To define a macro",
+        "To declare a new function"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `printf(\"%d\", !5);`?",
+      "options": ["5", "1", "0", "True"],
+      "correct": 2
+    },
+    {
+      "question": "What is the difference between a `struct` and a `union`?",
+      "options": [
+        "Struct members share the same memory location, while union members have unique locations",
+        "Union members share the same memory location, while struct members have unique locations",
+        "Struct can contain pointers, union cannot",
+        "Union can contain pointers, struct cannot"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of the `goto` statement?",
+      "options": [
+        "To loop through an array",
+        "To unconditionally jump to a labeled statement",
+        "To terminate a loop",
+        "To return a value from a function"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a bitwise operator?",
+      "options": ["%", ">>", "+", "=="],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of the `free()` function?",
+      "options": [
+        "To reset a variable's value",
+        "To deallocate dynamically allocated memory",
+        "To clear the console screen",
+        "To free a file pointer"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is used to comment a single line of code?",
+      "options": ["`//`", "`/* */`", "`#`", "`--`"],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `printf(\"%c\", 65);`?",
+      "options": ["A", "a", "65", "Compile error"],
+      "correct": 0
+    },
+    {
+      "question": "What is the main function of the `scanf()` function?",
+      "options": [
+        "To print output to the console",
+        "To read formatted input from the standard input stream",
+        "To read a string from a file",
+        "To clear the input buffer"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is an example of a unary operator?",
+      "options": ["`+`", "`-`", "`++`", "`%`"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of the `extern` keyword?",
+      "options": [
+        "To declare a variable with a block scope",
+        "To declare a global variable that is defined in another file",
+        "To define a static variable",
+        "To declare a pointer"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the correct way to define a constant `PI` with value `3.14`?",
+      "options": [
+        "const PI = 3.14;",
+        "int const PI = 3.14;",
+        "#define PI 3.14",
+        "PI = 3.14;"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the output of `printf(\"Hello\\nWorld\");`?",
+      "options": ["Hello\\nWorld", "Hello World", "HelloWorld", "Hello\nWorld"],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is a correct way to declare an integer array of size 5?",
+      "options": ["int arr[5];", "int arr[];", "arr int[5];", "arr[5] int;"],
+      "correct": 0
+    },
+    {
+      "question": "What does `int main(void)` mean?",
+      "options": [
+        "The main function returns an integer and takes no arguments",
+        "The main function takes a void pointer",
+        "The main function is void",
+        "The main function is an integer"
+      ],
+      "correct": 0
+    }
+  ],
+  "java": [
+    {
+      "question": "Which keyword is used to declare a constant in Java?",
+      "options": ["const", "final", "static", "constant"],
+      "correct": 1
+    },
+    {
+      "question": "What is the entry point of a Java application?",
+      "options": ["start()", "main()", "run()", "startMain()"],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a primitive data type in Java?",
+      "options": ["String", "Array", "int", "Object"],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is a correct way to create an object of a class `MyClass`?",
+      "options": [
+        "new MyClass()",
+        "MyClass obj = MyClass();",
+        "MyClass obj = new MyClass();",
+        "object new MyClass();"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is 'Encapsulation' in Java?",
+      "options": [
+        "Binding code and data together into a single unit",
+        "Hiding the implementation details from the user",
+        "The ability of an object to take on many forms",
+        "Creating an object from a class"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does `JVM` stand for?",
+      "options": [
+        "Java Virtual Machine",
+        "Java Virtual Memory",
+        "Java Variable Model",
+        "Java Value Maker"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the correct syntax for a `for` loop?",
+      "options": [
+        "for (i <= 5; i++)",
+        "for i <= 5; i++",
+        "for (int i = 0; i <= 5; i++)",
+        "for (int i = 0; i <= 5)"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which keyword is used to inherit a class?",
+      "options": ["implements", "extends", "inherits", "derive"],
+      "correct": 1
+    },
+    {
+      "question": "What is 'Polymorphism'?",
+      "options": [
+        "The ability of an object to take on many forms",
+        "Binding code and data together",
+        "Hiding implementation details",
+        "Creating new objects"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the `super` keyword?",
+      "options": [
+        "To call a method of the current class",
+        "To call a constructor of the superclass",
+        "To call a method of the subclass",
+        "To refer to the current object"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is an `interface` in Java?",
+      "options": [
+        "A class that cannot be instantiated",
+        "A blueprint of a class with abstract methods",
+        "A class that can only have one method",
+        "A class that can't be inherited"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `System.out.println(10 + 20 + 'Java');`?",
+      "options": ["30Java", "1020Java", "Java30", "Java1020"],
+      "correct": 0
+    },
+    {
+      "question": "Which exception is thrown when you try to access an invalid index of an array?",
+      "options": [
+        "ArrayIndexOutOfBoundsException",
+        "NullPointerException",
+        "IOException",
+        "FileNotFoundException"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is 'Abstraction'?",
+      "options": [
+        "Hiding the implementation details from the user",
+        "Binding code and data together",
+        "Creating new objects",
+        "The ability of an object to take on many forms"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a non-access modifier?",
+      "options": ["public", "private", "protected", "static"],
+      "correct": 3
+    },
+    {
+      "question": "What is the size of a `boolean` data type?",
+      "options": [
+        "1 byte",
+        "1 bit",
+        "Depends on the JVM",
+        "It's not a primitive data type"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is a valid method to define the main method in Java?",
+      "options": [
+        "public static void main(String args[])",
+        "static public void main(String args)",
+        "public void main(String args[])",
+        "public static void main()"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does `System.out.println()` do?",
+      "options": [
+        "Prints text to the console",
+        "Prints text and a newline to the console",
+        "Prints text to a file",
+        "Prints text without a newline to the console"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which operator is used for concatenation in Java?",
+      "options": ["&", "+", ".", "&&"],
+      "correct": 1
+    },
+    {
+      "question": "What is the difference between `==` and `.equals()`?",
+      "options": [
+        "One compares objects, the other compares primitives",
+        "One compares memory addresses, the other compares content",
+        "They are the same",
+        "One is for numbers, the other is for strings"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which collection class is synchronized?",
+      "options": ["ArrayList", "Vector", "HashMap", "LinkedList"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `final`?",
+      "options": [
+        "To prevent a class from being inherited",
+        "To prevent a variable from being changed",
+        "To prevent a method from being overridden",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is a `constructor`?",
+      "options": [
+        "A special method used to initialize objects",
+        "A method that returns a value",
+        "A method that has the same name as the class but no return type",
+        "A method that is called automatically when an object is created"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which keyword is used to handle exceptions?",
+      "options": ["try", "catch", "throw", "All of the above"],
+      "correct": 3
+    },
+    {
+      "question": "What is the output of `String s = \"hello\"; System.out.println(s.length());`?",
+      "options": ["5", "6", "undefined", "Compile error"],
+      "correct": 0
+    },
+    {
+      "question": "What is a 'package' in Java?",
+      "options": [
+        "A collection of classes and interfaces",
+        "A single class file",
+        "A data type",
+        "A library"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a correct declaration of a character?",
+      "options": [
+        "char c = 'a';",
+        "char c = \"a\";",
+        "char c = a;",
+        "char c = 'a'"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `break`?",
+      "options": [
+        "To exit a loop or a switch statement",
+        "To skip the current iteration of a loop",
+        "To terminate the program",
+        "To return from a function"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `int x = 10; System.out.println(++x);`?",
+      "options": ["10", "11", "9", "undefined"],
+      "correct": 1
+    },
+    {
+      "question": "Which class is the superclass of every class in Java?",
+      "options": ["Parent", "System", "Object", "Class"],
+      "correct": 2
+    },
+    {
+      "question": "What does `static` keyword mean?",
+      "options": [
+        "It belongs to the class, not a specific instance",
+        "It can't be changed",
+        "It's a global variable",
+        "It's a local variable"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `System.out.println(10/3.0);`?",
+      "options": ["3", "3.0", "3.3333333333333335", "Compile error"],
+      "correct": 2
+    },
+    {
+      "question": "What is a `method overloading`?",
+      "options": [
+        "Methods in different classes with the same name",
+        "Methods in the same class with the same name but different parameters",
+        "Methods in the same class with the same name and same parameters",
+        "Two methods with the same name but different parameters"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is used to implement multiple inheritance?",
+      "options": ["classes", "interfaces", "abstract classes", "both a and b"],
+      "correct": 1
+    },
+    {
+      "question": "What is a `try-catch` block?",
+      "options": [
+        "Used for loops",
+        "Used for conditional statements",
+        "Used to handle exceptions",
+        "Used for creating objects"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is a valid identifier?",
+      "options": ["1name", "_name", "my-name", "my name"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `main()` method?",
+      "options": [
+        "It is the main entry point for a program",
+        "It is the main method for printing",
+        "It is the main method for a class",
+        "It is the main method for an object"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is 'Garbage Collection'?",
+      "options": [
+        "The process of cleaning up unused memory",
+        "The process of creating new objects",
+        "The process of handling exceptions",
+        "The process of creating a new method"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `this` keyword?",
+      "options": [
+        "Refers to the current class",
+        "Refers to the current object",
+        "Refers to the superclass",
+        "Refers to the subclass"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is `method overriding`?",
+      "options": [
+        "Subclass method with the same name and parameters as a superclass method",
+        "Subclass method with a different name than a superclass method",
+        "Superclass method with the same name and parameters as a subclass method",
+        "Two methods with the same name but different parameters"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is an example of a type casting?",
+      "options": [
+        "int x = (int) 3.14;",
+        "int x = 3.14;",
+        "int x = 'a';",
+        "int x = 3.14d;"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is used to read input from the user?",
+      "options": [
+        "Scanner class",
+        "BufferedReader class",
+        "Both a and b",
+        "None of the above"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is used to prevent method overriding?",
+      "options": ["`static`", "`final`", "`abstract`", "`protected`"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `System.in`?",
+      "options": [
+        "Standard output stream",
+        "Standard input stream",
+        "Standard error stream",
+        "Standard file stream"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `System.out.println(10 % 3);`?",
+      "options": ["3", "1", "3.33", "0"],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a correct way to declare an array of strings?",
+      "options": [
+        "String[] arr = new String[5];",
+        "String arr[5] = new String[];",
+        "String arr[] = new String();",
+        "arr[] = new String[5];"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `interface`?",
+      "options": [
+        "To achieve multiple inheritance",
+        "To achieve abstraction",
+        "To define a contract for classes to implement",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the purpose of `import`?",
+      "options": [
+        "To import a class from another package",
+        "To include a header file",
+        "To define a class",
+        "To create an object"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is an example of a wrapper class?",
+      "options": ["`int`", "`double`", "`Integer`", "`char`"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of the `throw` keyword?",
+      "options": [
+        "To create a new exception",
+        "To declare an exception",
+        "To explicitly throw an exception",
+        "To handle an exception"
+      ],
+      "correct": 2
+    }
+  ],
+  "python": [
+    {
+      "question": "Which of the following is a correct comment in Python?",
+      "options": [
+        "# This is a comment",
+        "// This is a comment",
+        "/* This is a comment */",
+        "&lt;!-- This is a comment --&gt;"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the correct way to write a string in a variable?",
+      "options": [
+        "variable = \"Hello\"",
+        "variable = 'Hello'",
+        "variable = \"\"\"Hello\"\"\"",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is a mutable data type in Python?",
+      "options": ["tuple", "string", "list", "int"],
+      "correct": 2
+    },
+    {
+      "question": "What is the output of `print(type([]))`?",
+      "options": [
+        "<class 'list'>",
+        "<class 'array'>",
+        "<class 'tuple'>",
+        "<class 'list'>"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the keyword for a function in Python?",
+      "options": ["`func`", "`function`", "`def`", "`define`"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of `pip`?",
+      "options": [
+        "Python Package Installer",
+        "Python Interpreter",
+        "Python IDE",
+        "Python Input Processor"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `print(10/3)`?",
+      "options": ["3", "3.3333333333333335", "3.0", "3.33"],
+      "correct": 1
+    },
+    {
+      "question": "Which operator is used for integer division in Python?",
+      "options": ["/", "%", "//", "**"],
+      "correct": 2
+    },
+    {
+      "question": "What is a 'dictionary' in Python?",
+      "options": [
+        "An ordered collection of items",
+        "A key-value pair collection",
+        "A sequence of characters",
+        "A collection of unique items"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `__init__` method?",
+      "options": [
+        "It is a constructor for a class",
+        "It is a destructor for a class",
+        "It is a static method",
+        "It is a final method"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is a `lambda` function?",
+      "options": [
+        "An anonymous function",
+        "A function that returns a value",
+        "A function that takes multiple arguments",
+        "A built-in function"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `print('Python' * 2)`?",
+      "options": ["PythonPython", "Python 2", "Python", "Error"],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a correct way to open a file in read mode?",
+      "options": [
+        "open(\"file.txt\", \"r\")",
+        "open(\"file.txt\", \"read\")",
+        "open(\"file.txt\", \"w\")",
+        "open(\"file.txt\")"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `self` keyword?",
+      "options": [
+        "It refers to the current class",
+        "It refers to the current instance of the class",
+        "It refers to the superclass",
+        "It refers to the subclass"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `print(len('hello'))`?",
+      "options": ["5", "6", "undefined", "Error"],
+      "correct": 0
+    },
+    {
+      "question": "What is `IndentationError`?",
+      "options": [
+        "A syntax error caused by incorrect indentation",
+        "A logical error",
+        "A runtime error",
+        "A type error"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a correct way to get the current date?",
+      "options": ["date.today()", "datetime.date.today()", "now()", "date()"],
+      "correct": 1
+    },
+    {
+      "question": "What does `del` keyword do?",
+      "options": [
+        "It deletes a file",
+        "It deletes a variable or an element from a list",
+        "It deletes a function",
+        "It deletes a class"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `pass` statement?",
+      "options": [
+        "It is a null operation",
+        "It is a keyword to exit a loop",
+        "It is a keyword to skip a loop",
+        "It is a keyword to continue a loop"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `x = 10; y = 20; print(x > y)`?",
+      "options": ["True", "False", "None", "Error"],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is an example of a list?",
+      "options": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "{'a': 1, 'b': 2}"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `is` operator?",
+      "options": [
+        "To check if two variables have the same value",
+        "To check if two variables point to the same object in memory",
+        "To check if two variables are of the same type",
+        "To check if a variable is null"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `print('hello'[1])`?",
+      "options": ["h", "e", "l", "o"],
+      "correct": 1
+    },
+    {
+      "question": "What is a `docstring`?",
+      "options": [
+        "A single-line comment",
+        "A multi-line comment",
+        "A string literal used for documentation",
+        "A type of string"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following is a built-in function?",
+      "options": ["`len()`", "`range()`", "`print()`", "All of the above"],
+      "correct": 3
+    },
+    {
+      "question": "What is the purpose of `try-except` block?",
+      "options": [
+        "To handle errors and exceptions",
+        "To create a loop",
+        "To create a conditional statement",
+        "To create a function"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is a 'generator'?",
+      "options": [
+        "A function that returns a value",
+        "A function that yields values",
+        "A type of loop",
+        "A type of class"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `print(2**3)`?",
+      "options": ["8", "6", "5", "9"],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the `yield` keyword?",
+      "options": [
+        "To return a value and continue from where it left off",
+        "To return a value and exit the function",
+        "To throw an exception",
+        "To define a class"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a non-valid variable name?",
+      "options": ["`_name`", "`my_name`", "`name1`", "`1name`"],
+      "correct": 3
+    },
+    {
+      "question": "What is a `tuple`?",
+      "options": [
+        "A mutable list",
+        "An immutable list",
+        "A key-value pair",
+        "A set of unique items"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a built-in data structure in Python?",
+      "options": ["List", "Tuple", "Dictionary", "All of the above"],
+      "correct": 3
+    },
+    {
+      "question": "What is a 'module'?",
+      "options": [
+        "A file containing Python code",
+        "A single function",
+        "A type of data structure",
+        "A class"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `if __name__ == '__main__':`?",
+      "options": [
+        "To make the code run only when the script is executed directly",
+        "To check if the user is an admin",
+        "To check for errors",
+        "To define a function"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `print('Python'.upper())`?",
+      "options": ["python", "PYTHON", "pyhton", "P"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `raise` keyword?",
+      "options": [
+        "To create a new exception",
+        "To declare an exception",
+        "To explicitly throw an exception",
+        "To handle an exception"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of `__str__` method?",
+      "options": [
+        "To create a string representation of an object",
+        "To convert a string to an object",
+        "To check if an object is a string",
+        "To convert an object to a string"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is a correct way to slice a list?",
+      "options": [
+        "`list[1:3]`",
+        "`list(1, 3)`",
+        "`list{1, 3}`",
+        "`list.slice(1, 3)`"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is `isinstance()` function used for?",
+      "options": [
+        "To check if a variable is an instance of a class",
+        "To check if a variable is an integer",
+        "To check if a variable is a string",
+        "To check if a variable is an object"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is a 'set' in Python?",
+      "options": [
+        "An ordered collection of unique items",
+        "An unordered collection of unique items",
+        "An ordered collection of items",
+        "An unordered collection of items"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `print(5 == 5.0)`?",
+      "options": ["True", "False", "None", "Error"],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `os` module?",
+      "options": [
+        "To interact with the operating system",
+        "To create new objects",
+        "To handle exceptions",
+        "To handle file operations"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `with` statement?",
+      "options": [
+        "To define a loop",
+        "To simplify resource management",
+        "To create a function",
+        "To define a class"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a correct way to create an empty dictionary?",
+      "options": ["`dict()`", "`{}`", "Both a and b", "None of the above"],
+      "correct": 2
+    },
+    {
+      "question": "What is the output of `print(10/2*3)`?",
+      "options": ["15.0", "15", "5.0", "5"],
+      "correct": 0
+    },
+    {
+      "question": "What is a `list comprehension`?",
+      "options": [
+        "A concise way to create lists",
+        "A way to iterate over a list",
+        "A way to sort a list",
+        "A way to filter a list"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the output of `print('hello' + ' world')`?",
+      "options": ["hello world", "hello-world", "helloworld", "hello"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of the `pass` statement?",
+      "options": [
+        "It is a null operation",
+        "It is used to exit a loop",
+        "It is used to skip a loop",
+        "It is used to continue a loop"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a keyword in Python?",
+      "options": ["`yield`", "`lambda`", "`pass`", "`run`"],
+      "correct": 3
+    }
+  ],
+  "cpp": [
+    {
+      "question": "What is the output of `std::cout << (3 > 2 ? 10 : 20);`?",
+      "options": ["10", "20", "3", "2"],
+      "correct": 0
+    },
+    {
+      "question": "What is the difference between `struct` and `class` in C++?",
+      "options": [
+        "struct members are public by default, while class members are private",
+        "class members are public by default, while struct members are private",
+        "struct can't have methods, while class can",
+        "class can't have data members, while struct can"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of the `virtual` keyword?",
+      "options": [
+        "To make a function a virtual function",
+        "To make a class a virtual class",
+        "To enable dynamic polymorphism",
+        "To create a virtual variable"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the correct way to include an I/O stream header?",
+      "options": [
+        "#include \"iostream\"",
+        "#include <iostream>",
+        "include <iostream>",
+        "#include iostream"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a correct way to declare an integer array?",
+      "options": [
+        "int arr[5];",
+        "int arr[];",
+        "int arr[5] = new int[5];",
+        "int arr[] = {1, 2, 3};"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is a 'reference' in C++?",
+      "options": [
+        "An alias for an existing variable",
+        "A pointer to a variable",
+        "A copy of a variable",
+        "A constant variable"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `new` operator?",
+      "options": [
+        "To create a new variable",
+        "To allocate memory dynamically on the heap",
+        "To deallocate memory",
+        "To create a new class"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'destructor'?",
+      "options": [
+        "A special method called when an object is destroyed",
+        "A method that has the same name as the class",
+        "A method that returns a value",
+        "A method that is used to initialize an object"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is 'inheritance'?",
+      "options": [
+        "A mechanism where a class acquires the properties of another class",
+        "Binding data and code together",
+        "Hiding implementation details",
+        "The ability of an object to take on many forms"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the correct way to declare a constant in C++?",
+      "options": [
+        "`const int x = 10;`",
+        "`int const x = 10;`",
+        "`const x = 10;`",
+        "Both a and b"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the output of `std::cout << (10 % 3);`?",
+      "options": ["3", "1", "3.33", "0"],
+      "correct": 1
+    },
+    {
+      "question": "What is a 'namespace'?",
+      "options": [
+        "A container for a set of identifiers",
+        "A keyword for a class",
+        "A keyword for a function",
+        "A variable"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a fundamental data type in C++?",
+      "options": ["`int`", "`float`", "`string`", "`double`"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of the `private` access specifier?",
+      "options": [
+        "Members are accessible from anywhere",
+        "Members are accessible only from within the class",
+        "Members are accessible from within the class and its subclasses",
+        "Members are accessible only from within the file"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `std::cout << 10/3.0;`?",
+      "options": ["3", "3.0", "3.3333333333333335", "Compile error"],
+      "correct": 2
+    },
+    {
+      "question": "What is a 'pointer' in C++?",
+      "options": [
+        "A variable that stores a value",
+        "A variable that stores the memory address of another variable",
+        "A keyword to declare a variable",
+        "A data type"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `delete` operator?",
+      "options": [
+        "To deallocate memory that was allocated with `new`",
+        "To delete a variable",
+        "To delete a function",
+        "To delete a class"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is `function overloading`?",
+      "options": [
+        "Functions in different classes with the same name",
+        "Functions with the same name but different parameters",
+        "Functions with the same name and same parameters",
+        "Functions in different classes with the same name and same parameters"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `this` pointer?",
+      "options": [
+        "Refers to the current class",
+        "Refers to the current object",
+        "Refers to the superclass",
+        "Refers to the subclass"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `std::cout << 10 + 20;`?",
+      "options": ["30", "1020", "undefined", "10 20"],
+      "correct": 0
+    },
+    {
+      "question": "What is a 'pure virtual function'?",
+      "options": [
+        "A virtual function that is not implemented",
+        "A virtual function that is implemented",
+        "A function that is not virtual",
+        "A function that returns a void value"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is an example of a unary operator?",
+      "options": ["`+`", "`>>`", "`++`", "`%`"],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of `friend` keyword?",
+      "options": [
+        "To allow a function to access private members of a class",
+        "To allow a class to access private members of another class",
+        "To allow a class to inherit from another class",
+        "Both a and b"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is a 'constructor'?",
+      "options": [
+        "A special method used to initialize objects",
+        "A method that returns a value",
+        "A method that has the same name as the class but no return type",
+        "A method that is called automatically when an object is created"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `inline` keyword?",
+      "options": [
+        "To make a function a virtual function",
+        "To request the compiler to replace the function call with the function body",
+        "To make a function a final function",
+        "To make a function a static function"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `int arr[] = {1, 2, 3}; std::cout << arr[1];`?",
+      "options": ["1", "2", "3", "undefined"],
+      "correct": 1
+    },
+    {
+      "question": "Which of the following is a correct way to comment a single line of code?",
+      "options": ["`//`", "`/* */`", "`#`", "`--`"],
+      "correct": 0
+    },
+    {
+      "question": "What is 'templates'?",
+      "options": [
+        "A way to write generic code that works with any data type",
+        "A way to create a new class",
+        "A way to create a new function",
+        "A way to create a new variable"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `std::cin`?",
+      "options": [
+        "Standard output stream",
+        "Standard input stream",
+        "Standard error stream",
+        "Standard file stream"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `cout << \"Hello\";`?",
+      "options": [
+        "To read a string from a file",
+        "To read a string from the user",
+        "To print a string to the console",
+        "To print a string to a file"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is `static_cast` used for?",
+      "options": [
+        "To perform a static cast",
+        "To convert a value from one type to another",
+        "To perform a dynamic cast",
+        "To perform a const cast"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `const` keyword?",
+      "options": [
+        "The variable can be changed",
+        "The variable cannot be changed",
+        "The variable must be initialized",
+        "The variable is a pointer"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `enum`?",
+      "options": [
+        "To define a new data type",
+        "To create a set of named integer constants",
+        "To define a new class",
+        "To define a new function"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `std::cout << 'A';`?",
+      "options": ["65", "A", "a", "Compile error"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `endl`?",
+      "options": [
+        "To print a new line",
+        "To print a new line and flush the stream",
+        "To print a new line without flushing the stream",
+        "To print a space"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `using namespace std;`?",
+      "options": [
+        "To make all members of `std` accessible without `std::` prefix",
+        "To make all members of `std` accessible with `std::` prefix",
+        "To make all members of `std` inaccessible",
+        "To make all members of `std` public"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `main()` function?",
+      "options": [
+        "It is the main entry point for a program",
+        "It is the main function for printing",
+        "It is the main function for a class",
+        "It is the main function for an object"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is not a type of inheritance?",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Hybrid inheritance",
+        "Simple inheritance"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the purpose of the `static` keyword in a class member?",
+      "options": [
+        "It belongs to a specific object",
+        "It belongs to the class itself, not a specific object",
+        "It can't be changed",
+        "It's a local variable"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the output of `std::cout << 5/2;`?",
+      "options": ["2.5", "2", "3", "undefined"],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of `explicit` keyword?",
+      "options": [
+        "To prevent implicit conversions",
+        "To allow implicit conversions",
+        "To create a new variable",
+        "To create a new class"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is `operator overloading`?",
+      "options": [
+        "Giving a special meaning to an operator for a user-defined type",
+        "Giving a special meaning to a function",
+        "Giving a special meaning to a class",
+        "Giving a special meaning to a variable"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `cin`?",
+      "options": [
+        "To read input from the user",
+        "To print output to the console",
+        "To read a string from a file",
+        "To clear the input buffer"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the purpose of `throw` keyword?",
+      "options": [
+        "To create a new exception",
+        "To declare an exception",
+        "To explicitly throw an exception",
+        "To handle an exception"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of a `virtual function`?",
+      "options": [
+        "To enable runtime polymorphism",
+        "To enable compile-time polymorphism",
+        "To enable static polymorphism",
+        "To enable dynamic polymorphism"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following is a correct way to declare a constant reference?",
+      "options": [
+        "`const int& ref = x;`",
+        "`int const& ref = x;`",
+        "Both a and b",
+        "`int & ref = const x;`"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the purpose of `auto` keyword?",
+      "options": [
+        "To declare a new variable",
+        "To deduce the type of a variable from its initializer",
+        "To create an automatic variable",
+        "To create a new function"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the purpose of the `mutable` keyword?",
+      "options": [
+        "To allow a constant object to be changed",
+        "To allow a constant variable to be changed",
+        "To allow a variable to be changed",
+        "To allow a constant method to be changed"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is a 'forward declaration'?",
+      "options": [
+        "A declaration of a function or class before its definition",
+        "A declaration of a variable",
+        "A declaration of a constant",
+        "A declaration of a macro"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which of the following is an example of `dynamic_cast`?",
+      "options": ["`(int)x`", "`(int)x`", "`dynamic_cast<int>(x)`", "`int(x)`"],
+      "correct": 2
+    }
+  ]
+}

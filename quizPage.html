@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <p id="question"><span id="qtCount">Q1.</span> Who is the father of C language?</p>
+        </div>
+
+        <div class="quiz-body">
+            <ul class="options-list">
+                <li>
+                    <input type="radio" name="answer" id="opt1">
+                    <label class="answer" for="opt1">
+                        Steve Jobs
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="opt2">
+                    <label class="answer" for="opt2">
+                        James Gosling
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="opt3">
+                    <label class="answer" for="opt3">
+                        Dennis Ritchie
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="opt4">
+                    <label class="answer" for="opt4">
+                        Rasmus Lerdorf
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="quiz-footer">
+            <div class="question-tracker">
+                <span class="quest" id="prevbtn">prev</span>
+                <span class="quest" id="nextbtn">next</span>
+            </div>
+            <div class="buttons">
+                <button class="btn-submit btn">Submit</button>
+                <button class="btn-End btn" id="endBtn">End</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
